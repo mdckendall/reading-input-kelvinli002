@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Enter a word:");
+    Scanner sc1 = new Scanner(System.in);
+    String str;
     
-    //Your code will return the length of the entered String
+    System.out.print("Enter a word: ");
+    str = sc1.nextLine();
+    System.out.println(str.length());
   }
 }
